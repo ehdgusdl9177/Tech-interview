@@ -1,1 +1,24 @@
-asd
+## 프로미스의 개념
+- "A promise is an object that may produce a single value some time in the future"
+- 자바스크립트 비동기 처리에 사용되는 객체
+- 자바스크립트 비동기 처리란??
+  - 특정 코드의 실행이 완료될 때까지 기다리지 않고 다음 코드를 먼저 수행하는 자바스크립트의 특성
+
+## 언제 사용하는지?
+- 줄호 서버에서 받아온 데이터를 화면에 표시할 때 사용한다.
+- 일반적으로 웹 앱을 구현할 때 서버에서 데이터를 요청하고 받아오기 위해 APIfmf tkdydgksek.
+
+## 콜백 함수와 프로미스의 차이점
+- 콜백 함수는 연속적인 비동기 패턴을 다룰때 두번째 인자로 콜백을 넣어주고, 그 콜백을 반복적으로 실행시키면서 비동기 작업을 진행한다.
+- 코드로 보면 같은 코드가 반복적으로 쓰여 코드 양도 많아지고 복잡해보인다.
+- 반면 프로미스는 비동기 작업의 추가/수정이 유연하고 같은 코드가 반복적으로 쓰이지 않아 가독성에 유리, 코드 유지보수성 또한 용이하다.
+
+## 프로미스의 상태
+- Pending: 비동기 처리 로직이 아직 완료되지 않은 상태
+- Fulfilled: 비동기 처리가 완료되어 프로미스가 결과 값을 반환해준 상태
+- Rejected: 비동기 처리가 실패하거나 오류가 발생한 상태
+- 한편 new Promise 생성자가 반환하는 promise 객체는 다음과 같은 배부 프로퍼티를 갖는다.
+  - state: 처음에 "Pending(보류)"이었다 resolve가 호출되면 "fulfilled", reject가 호출되면 "rejected"로 반환한다
+  - result: 처음에 undefined이었다 resolve(value)가 호출되면 value로, reject(error)가 호출되면 error로 변한다.
+
+<img width="609" alt="스크린샷 2021-12-23 오후 6 34 41" src="https://user-images.githubusercontent.com/75515697/147222675-b8a9d86f-c080-4bbc-81d9-d37c2b0260cb.png">
