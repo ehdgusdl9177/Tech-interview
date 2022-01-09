@@ -11,7 +11,7 @@
 - 브라우저는 출처가 다른 요청을 보낼때 Access-Control-Allow-Origin이라는 헤더를 추가한다.
 - 만약 리소스에도 동일한 Access-Control-Allow-Origin 정보가 등록된 상태라면 안전한 요청으로 간주하고 응답 데이터를 준다.
 
-### Node.js 기반의 웹 서버에서 CORS를 어떻게 실행하는가
+### Node.js 기반의 웹 서버에서 CORS를 어떻게 실행하는가?
 - node.js 에서 CORS를 설정하려면 응답헤더에 각각 정보를 담아주어야해서 번거롭다.
 - 하지만 Access-Controll-Allow-Origin 헤더를 설정해줄 수 있는 CORS npm 모듈을 이용하면 편리하게 설정 가능하다.
 - cors()안에 origin, credential, method 정보를 객체형태로 담아준다.
