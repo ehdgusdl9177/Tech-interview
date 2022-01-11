@@ -1,3 +1,5 @@
+![let, var, const의 차이점과 호이스팅-1](https://user-images.githubusercontent.com/75515697/148891926-24e05631-759f-4d76-b657-c44c9ce31b9a.jpg)
+
 ## let, var, const의 차이점
 ### var
 - 자바스크립트의 초창기 변수선언 방식
