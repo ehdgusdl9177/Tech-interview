@@ -1,3 +1,5 @@
+![CORS-1](https://user-images.githubusercontent.com/75515697/148893914-5a6f0724-9d31-458f-891d-ca6a9638e4f0.jpg)
+
 ## CORS
 - Cross-Origin-Sharing은 추가적인 HTTP header를 사용해서 실행중인 웹이 다른 origin의 리소스에 접근할 수 있도록 하는 메커니즘을 의미한다.
 
