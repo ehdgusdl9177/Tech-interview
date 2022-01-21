@@ -94,3 +94,22 @@ const user = {
 }
 const { name, age } = user;
 ```
+
+### Import and Export (가져오기 및 내보내기)
+- Javascript 응용프로그램에서 import 및 export를 사용하면 성능이 향상된다. 이를 통해 별도의 재사용 가능한 구성요소를 작성할 수 있다.
+- export를 사용하면 다른 Javascript 구성요소에 사용할 모듈을 내보낼 수 있다.
+- 그 모듈을 우리의 컴포넌트에 사용하기 위해 가져오기 import를 사용한다.
+
+```
+export default function detail(name, age) {
+  return `안녕 ${name}, 너의 나이는 ${age}살 이다`
+}
+```
+```
+import detail from './detailComponent'
+console.log(detail(케빈, 25))
+// '안녕 케빈, 너의 나이는 25살 이다.'
+```
+- 둘 이상의 모듈을 가져오려는 경우, 중괄호에 넣기만 하면 된다.
+
+### 
