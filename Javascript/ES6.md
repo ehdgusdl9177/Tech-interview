@@ -112,4 +112,17 @@ console.log(detail(케빈, 25))
 ```
 - 둘 이상의 모듈을 가져오려는 경우, 중괄호에 넣기만 하면 된다.
 
-### 
+### Promise (프로미스)
+- Promise는 ES6의 새로운 특징이며 비동기 코드를 쓰는 방법이다.
+- 예를 들어 API에서 데이터를 가져오거나 실행하는데 시간이 걸리는 함수를 가지고 있을 때 사용할 수 있다.
+
+```
+const myPromise = () => {
+  return new promise((reject, resolve)) => {
+    resolve('성공적으로 Promise가 실행됬습니다')
+  })
+}
+```
+- Promise는 두 개의 매개 변수를 사용하며 resolve 및 reject 예상 오류를 처리할 수 있다.
+- fetch 함수는 Promise 자체를 반환한다.
+
