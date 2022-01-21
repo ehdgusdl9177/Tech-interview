@@ -74,5 +74,23 @@ const myFunc = (name, age = 25) {
 ```
 - 두 번째 매개 변수를 놓쳤더라도 값을 반환한다. 이제 기본 파라미터를 사용하여 오류를 미리 처리할 수 있다.
 
+### Array and Object destructing (배열 및 객체 비구조화)
+- 비구조화를 통해 배열 또는 객체의 값을 새 변수에 더 쉽게 할당할 수 있다.
+```
+ES5
+const user = {
+  name: 'kevin',
+  age: '25',
+}
+let name = user.name;
+let age = user.age;
+```
 
-
+```
+ES6
+const user = {
+  name: 'kevin',
+  age: '25',
+}
+const { name, age } = user;
+```
