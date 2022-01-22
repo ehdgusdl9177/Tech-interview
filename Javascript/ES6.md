@@ -126,3 +126,31 @@ const myPromise = () => {
 - Promise는 두 개의 매개 변수를 사용하며 resolve 및 reject 예상 오류를 처리할 수 있다.
 - fetch 함수는 Promise 자체를 반환한다.
 
+### Rest parameter and Spread opertator (나머지 매개 변수 및 확산 연산자)
+- Rest parameter는 배열의 인수를 가져오고 새 배열을 반환하는데 사용된다.
+
+```
+const arr = ['케빈', '25', '반가워', '불타는 코딩', '파이팅'];
+
+// 비구조화를 이용해 값을 얻기
+const [ val1, val2, val3, ...rest ] = arr;
+
+const func = (restOfArr) => {
+  return restOfArr.filter((item) => {return item}).join(" ");
+}
+
+console.log(func(rest)) // '불타는 코딩 파이팅'
+```
+
+- Spread operator는 Rest parameter와 구문이 동일하지만 Spread operator는 인수뿐만 아니라 배열 자체를 가진다. for 반복문이나 다른 메서드를 사용하는 대신 Spread operator를 사용하여 배열의 값을 가져올 수 있다.
+
+```
+const arr = ['케빈', '25', '반가워', '불타는 코딩', '파이팅'];
+
+const func = (...anArray) => {
+  return anArray;
+}
+
+console.log(func(arr)); // ['케빈', '25', '반가워', '불타는 코딩', '파이팅'];
+```
+
