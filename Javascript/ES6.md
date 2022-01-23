@@ -154,3 +154,4 @@ const func = (...anArray) => {
 console.log(func(arr)); // ['케빈', '25', '반가워', '불타는 코딩', '파이팅'];
 ```
 
+### Classes (클래스)
