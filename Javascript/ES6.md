@@ -155,3 +155,49 @@ console.log(func(arr)); // ['케빈', '25', '반가워', '불타는 코딩', '�
 ```
 
 ### Classes (클래스)
+- class는 객체 지향 프로그래밍(OOP)의 핵심이다. 코드를 더욱 안전하게 캡슐화할 수 있다. class를 사용하면 코드 구조가 좋아지고 방향을 유지한다.
+
+- class를 만들려면 class 키워드 뒤에 두 개의 중괄호가 있는 class 이름을 사용한다.
+```
+class myClass {
+  constructor() {
+  
+  }
+}
+```
+
+- new 키워드를 사용하여 class 메서드와 속성에 액세스할 수 있다.
+```
+class myClass {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+const user = new myClass('케빈', 25)
+console.log(user.name) // 케빈
+console.log(user.age) // 25
+```
+
+- 다른 class에서 상속하려면 extends 키워드 다음에 상속할 class의 이름을 사용한다.
+```
+class myClass {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+  sayHello() {
+    console.log(`안녕 ${this.name} 너의 나이는 ${this.age}가 맞니?`)
+  }
+}
+
+// myClass 메서드 및 속성 상속
+Class UserProfile extends myClass {
+  userName() {
+    console.log(this.name)
+  }
+}
+const profile = new UserProfile('케빈', 25);
+profile.sayHello(); // 안녕 케빈 너의 나이는 25가 맞니?
+profile.userName(); // 케빈
+```
