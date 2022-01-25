@@ -1,6 +1,8 @@
 ![let, var, const의 차이점과 호이스팅-1](https://user-images.githubusercontent.com/75515697/148891926-24e05631-759f-4d76-b657-c44c9ce31b9a.jpg)
 
 ## let, var, const의 차이점
+1. 변수의 재할당 허용
+2. 블록 스코프의 인식
 ### var
 - 자바스크립트의 초창기 변수선언 방식
 - 변수를 한 번 더 선언해도 에러가 나지 않는다.
