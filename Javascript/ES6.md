@@ -197,6 +197,7 @@ Class UserProfile extends myClass {
     console.log(this.name)
   }
 }
+
 const profile = new UserProfile('케빈', 25);
 profile.sayHello(); // 안녕 케빈 너의 나이는 25가 맞니?
 profile.userName(); // 케빈
