@@ -1,4 +1,5 @@
 ## Rest(REpresentational State Transfer)
+- HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 말한다.
 - 웹에서 사용하는 모든 자원을 HTTP URL로 정의하고, HTTP Method를 통해 요청과 응답을 정의하는 방식을 말한다.
 - REST는 자원(Resource), 행위(Verb), 표현(Representaions)으로 구성된 API 아키텍쳐이다. 웹의 장점과 HTTP의 우수성을 적극 활용할 수 있는 아키텍쳐로 URI를 통해서 자원을 명시하고 POST, GET, PUT, PATCH, DELETE 등의 Method를 통해서 해당 자원의 CRUD 연산을 적용하는 것을 의미한다. 코드의 재사용성을 높일 수 있으며 프론트엔드와 백엔드의 완전한 분업이 가능해진다.
 - REST의 요소
