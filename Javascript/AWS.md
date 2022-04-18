@@ -14,3 +14,15 @@
 - AWS에서 가장 중요한 서비스!
 - 아마존이 서비스를 제공하는 리전에서 가상의 컴퓨터를 임대하는 개념이다.
 - 인스턴스는 EC2를 생성할 때 사용하는 단위인데, 1대의 컴퓨터를 의미하고 생성 시 OS 등 가상 서버 관련 설정을 선택할 수 있다.(ubuntu, window)
+  - ECS(EC2 Container Service): EC2를 도커 컨테이너로 관리하도록 나온 서비스
+  - EB(Elastic Beanstalk): 웹 애플리케이션용 클라우드 플랫폼 서비스. 간단한 배포 용으로 사용 
+  - AWS Lamda: AWS cloud function service. 서버 없이 작성한 프로그래밍 코드를 실행하는 환경을 제공(serverless architecture 구현에 사용)
+
+### S3(Single Stroage Service)
+- 정적 요소인 이미지나 동영상을 가지고 있다가 제공한다.
+- EC2와 다르게 무제한 저장이 가능해 주로 사용된다.
+- 스냅샷: 스냅샷은 S3에 저장된 EC2 볼륨의 백업이다. 스냅샷의 ID를 입력하여 스냅샷에 저장된 데이터를 사용하여 새 볼륨을 만들 수 있다. 또는 스냅샷 필드에 텍스트를 입력하여 퍼블릭 스냅샷을 검색할 수 있다.
+
+### RDS(Relational Database Service)
+- RDBMS 클라우드 서비스. 아마존 오로라, MySQL, 마리아DB, PostgreSQL, 오라클 서버 등을 지원한다.
+- DynamicDB: AWS의 NoSQL 데이터베이스 
