@@ -32,3 +32,8 @@
 ### RDS(Relational Database Service)
 - RDBMS 클라우드 서비스. 아마존 오로라, MySQL, 마리아DB, PostgreSQL, 오라클 서버 등을 지원한다.
 - DynamicDB: AWS의 NoSQL 데이터베이스 
+
+### AWS 사용하는 이유
+- 서버 설치, 증설, 폐기가 쉽고 빠르다
+- 사용한 만큼 돈을 지불하므로 합리적이다.
+- 서버 운영에 있어서 신경 쓸 일이 줄었다.
