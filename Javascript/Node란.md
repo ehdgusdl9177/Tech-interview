@@ -39,6 +39,6 @@
 - 블로킹은 이전 작업이 끝나야만 다음 작업을 수행하는 것을 의미
 - 논블로킹은 이전 작업이 완료될 때까지 대기하지 않고 다음 작업을 수행함을 뜻한다.
 - 논블로킹/블로킹과 비동기/동기는 서로 관점이 다르다.
-- Synchronous VS Asynchronous는 두 가지 이상의 대상과 이를 처리하는 시간으로 구분
-- Blocking VS Non-Blocking는 호출되는 대상이 직접 제어할 수 없는 경우 구분할 수 있다.
+  - Synchronous VS Asynchronous는 두 가지 이상의 대상과 이를 처리하는 시간으로 구분
+  - Blocking VS Non-Blocking는 호출되는 대상이 직접 제어할 수 없는 경우 구분할 수 있다.
 
