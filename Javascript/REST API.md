@@ -18,6 +18,7 @@
 <img width="681" alt="스크린샷 2022-01-02 오후 7 57 33" src="https://user-images.githubusercontent.com/75515697/147873594-58798faf-bc8d-4ca4-9801-e6f007a4f57b.png">
 
 ### REST 특징
+- RESTful한 API란 REST(representational state transfer) 아키텍처의 제약조건을 준수하는 애플리케이션 프로그래밍 인터페이스를 뜻한다.
 - Uniform Interface
   - HTTP 표준만 맞는다면, 어떤 기술도 가능한 Interface 스타일
     - 예) REST API 정의를 HTTP + JSON로 하였다면, C, Java, Python, IOS 플랫폼 등 특정 언어나 기술에 종속 받지 않고, 모든 플랫폼에 사용이 가능한 Loosely Couling 구조
