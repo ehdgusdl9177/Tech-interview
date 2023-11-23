@@ -1,5 +1,6 @@
 ## Rest API
 - REST 기반으로 서비스 API를 구현한 것
+- REST API란 핵심 컨텐츠 및 기능을 외부 사이트에서 활용할 수 있도록 제공되는 인터페이스 이다.
 
 ## Rest(REpresentational State Transfer)
 - HTTP URI를 통해 자원을 명시하고, HTTP Method를 통해 해당 자원에 대한 CRUD Operation을 적용하는 것을 말한다.
