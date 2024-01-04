@@ -1,5 +1,6 @@
 - RESTful한 API란 REST(representational state transfer) 아키텍처의 제약조건을 준수하는 애플리케이션 프로그래밍 인터페이스를 뜻한다.
 - "REST란 어떤 자원에 대해 CRUD(Create, Read, Update, Delete) 연산을 수행하기 위해 URI(Resource)로 요청을 보내는 것으로, Get, Post 등의 방식(Method)을 사용하여 요청을 보내며, 요청을 위한 자원은 특정한 형태(Representation of Resource)으로 표현된다"
+- REST를 기반으로 서비스 API를 구현한 것
 - 레스트풀한 API의 특성으로 다음의 몇 가지를 들 수 있다.
     - 클라이언트, 서버 및 리소스로 구성되어있으며 요청이 HTTP를 통해 관리된다. 여기서 리소스는 해당 소프트웨어가 관리하는 모든 것으로, 명사로 표현된다
     - Stateless한 속성을 가지고 있다. 요청이 분리되어있고 서로 연결되어있지 않다
