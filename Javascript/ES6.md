@@ -46,6 +46,7 @@
   
 ### Template Literals (템플릿 리터럴)
 - 문자열을 연결하기 위해 더하기 (+) 연산자를 사용할 필요는 없으며, 백틱 (``)을 사용하여 문자열 내에서 변수를 사용할 수도  있다.
+- 함수의 실행을 템플릿 리터럴로 구현
 ```
 const myFunc = (name, age) => {
   return `myname is ${name} and my age is ${age}`;
